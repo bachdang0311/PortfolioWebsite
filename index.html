@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+
+    <nav id="hamburger-nav">
+      <div class="logo">Portfolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/photosmile.vn__preview_rev_1.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Dang Chi Bach</h1>
+        <p class="section__text__p2">Sophomore at National Economics University(NEU)</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume - Dang Chi Bach.pdf')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/bach-dang/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+          
+          
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Ảnh thẻ.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Major</h3>
+              <p>Data Science in Economics and Business</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>National Economics University <br/ >(NEU)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a Sophomore student at the National Economics University in Ha Noi city. My GPA is 3.46, I have enrolled in a Data Analyst Course by teacher: Tran Hoang Long and several SQL, PowerBI and Python courses on Datacamp. <br>With a big passion for the Data industry and high eagerness to learn more about 
+the Business insights, I am seeking a Data Analyst/Business Analyst/Business Intelligence internship to further improve my Data Analytics skills and gain more valuable experiences. I am highly 
+enthusiastic and motivated to learn as much as possible and to contribute to the growth of the company.
+            </p>
+          </div>
+        </div>
+        
+
+
+
+
+
+      </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical skills/Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MS PowerBI</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MS Excel</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Lucid Chart<br>Draw.io</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              
+              
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <!-- <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article> -->
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Domain knowledge</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Business</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Banking</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Communications</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects & Reports</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/RFM-model.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">RFM Customers Segmentation</h2>
+            <div class="btn-container">
+            </header>
+              <p>Project utilizes the customer360 method and  RFM metrics: Recency, Frequency, and Monetary values to segment customers, providing insights for each segment
+                <br> <br>
+                
+                
+                Tools: SQL, PowerBI <br/ > </article></p> 
+            </div>
+            <br>
+            <div>
+              <a href="https://drive.google.com/drive/folders/1iA6adEX-zBfEC4B-EJ9gE34nwMdf0ot2?usp=sharing" target="_blank">
+                <button class="btn btn-color-2 project-btn">View Project</button>
+              </a>
+              
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Topica_Logo_1 (1) (1).jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"> Topica <br> HR Analysis 2019 </h2>
+            <div class="btn-container">
+            </header>
+            <p> The project based on company employee data, analyzing the overall human resources situation of the company, especially the turnover rate, to provide insights, reasons, and solutions. <br> <br>
+                
+                
+              Tools: SQL, PowerBI <br/ > </article></p> 
+            </div>
+            <br>
+            <div>
+              <a href="https://drive.google.com/drive/folders/1rN77hsAoW2ruq5rBNDzQU6hr-i5BGEu1?usp=sharing'" target="_blank">
+                <button class="btn btn-color-2 project-btn">View Project</button>
+              </a>
+            </div>
+          </div>
+        
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/digitalbank.jpg"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Bank Services Analysis</h2>
+            <div></div>
+            <div class="btn-container">
+            </header>
+            <p> The project provides an overview of the service usage and customer situation at a bank branch, proposing which types of services should be emphasized to increase next quarter revenue by 20% <br> <br>
+                
+                
+              Tools: PowerBI <br/ > </article></p>  
+            </div>
+            <br>
+            <div>
+              <a href="https://drive.google.com/drive/folders/1gSnpvX11QjTwjY66_olOwFBw7sPoPoQH?usp=sharing" target="_blank">
+                <button class="btn btn-color-2 project-btn">View Project</button>
+              </a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Films-2BYou-2BShould-2BNot-2BWatch.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Movies Correlation Analysis</h2>
+            <div class="btn-container">
+            </header>
+              <p> 
+                This project analyzes the correlation between attributes of movies such as Gross, Budget, Votes, Revenue, etc. from 1980 to present, as well as provides an overview of the movie industry through questions and visualizations.<br/> <br/>
+                
+                Tools: Python <br/ > </article></p> 
+            </div>
+            <br>
+            <div>
+              <a href="https://github.com/bachdang0311/Movie-Correlation-Projects" target="_blank">
+                <button class="btn btn-color-2 project-btn">View Project</button>
+              </a>
+            </div>  
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/AmaRDS.png"
+              alt="Project 5"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">AWS RDS<br> Deployment</h2>
+          <div class="btn-container">
+          </header>
+            <p> 
+              Project about creating a RDS Database on AWS, Planning an ERD about Post-Loan customer contract management system for a Finance Company and deploy it to the AWS Cloud<br/> <br/>              
+              Tools: SQL, AWS RDS, LucidChart <br/ > </article></p> 
+          </div>
+          <br>
+          <div>
+            <a href="https://drive.google.com/drive/folders/18kyAUcwqRBIMJzyRDZUxYmeFyo9uB3wg?usp=sharing" target="_blank">
+              <button class="btn btn-color-2 project-btn">View Project</button>
+            </a>
+          </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:bachdc0311@gmail.com">bachdc0311@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/bach-dang/" target="_blank">LinkedIn</a></p>
+        </div>
+        
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Bach Dang. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
